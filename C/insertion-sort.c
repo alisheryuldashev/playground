@@ -1,6 +1,7 @@
 /*
-This is a simple console program that finds numbers' indices in an array of {1,3,55,2,5,78} and that showcases two algorithms written in C:
-The first sorting algorithm - insertion sort - sorts the numbers in the array with the running time of O(n^2). The second searching algorithm - binary search - searches the numbers with the running time of O(logn).
+This is a simple console program that finds numbers' indices in an array of {1,3,55,2,5,78} and that shows two algorithms in C:
+The first sorting algorithm - insertion sort - sorts the numbers in the array with the running time of O(n^2). 
+The second searching algorithm - binary search - searches the numbers with the running time of O(logn).
 */
 
 #include <cs50.h> //custom library used by me in CS50 Harvard Introduction to Computer Science program.
