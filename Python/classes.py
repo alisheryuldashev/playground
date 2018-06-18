@@ -1,4 +1,5 @@
-#this snippet shows how to create a class in Python. this program will prompt for information and append same into a class. 
+#this snippet shows how to create a class in Python. 
+#this program will prompt for information, append same into a class, and output a message.
 
 #create a class called Student
 class Student:
