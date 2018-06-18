@@ -1,0 +1,22 @@
+<!--this code shows your longitude and latitude in real time. It uses the geolocation API of your device which lets your browser 
+share your current location with websites that you trust. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My geolocation</title>
+    <script>
+        var gps = navigator.geolocation.getCurrentPosition(
+    
+        function (position) {  
+            for (key in position.coords) {
+                document.write(key+': '+ position.coords[key]);
+                document.write ('<br>');
+                }
+            }                                                   
+        );
+</script>
+</head>
+<body>
+</body>
+</html>
