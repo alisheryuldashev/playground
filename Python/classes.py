@@ -8,8 +8,6 @@ class Student:
         self.dorm = dorm
         
 
-#prompt user for information and append it to the class called Student
-
 #import custom functions from CS50 library used in Harvard Introduction to Computer Science course. 
 from cs50 import get_string
 #import class Student
@@ -18,6 +16,7 @@ from test14class import Student
 students = []
 dorms = []
 
+#prompt user for information and append it to the class called Student
 for i in range(3):
     name = get_string("Name: ")
     dorm = get_string("Dorm: ")
